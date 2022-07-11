@@ -29,7 +29,7 @@ def main():
         st.code(get_file_content_as_string('app.py'))
         # embed streamlit docs in a streamlit app
         st.markdown('lstm implementation source code''<a href="https://www.kaggle.com/code/roysonclausitdmello/lstmser-b1" target="_blank">...</a>', unsafe_allow_html=True)
-        st.markdown('svm feature extraction source code''<a href="https://colab.research.google.com/drive/1XQ4ipDbASyMarNET1nYbUXbh-Dz162eV#scrollTo=4f8e89d1" target="_blank">...</a>', unsafe_allow_html=True)
+        st.markdown('svm feature extraction source code''<a href="https://colab.research.google.com/drive/1QqVgWT_hpsfr5deVjDXMD4RoBsShffGK" target="_blank">...</a>', unsafe_allow_html=True)
         st.markdown('svm implementation source code''<a href="https://colab.research.google.com/drive/1XQ4ipDbASyMarNET1nYbUXbh-Dz162eV#scrollTo=4f8e89d1" target="_blank">...</a>', unsafe_allow_html=True)
 
     if selected_box == 'view results':
